@@ -1,5 +1,5 @@
 # Mechanical Hexapod
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+I built a mechanical hexapod, capable of movement through a remote control. 18 motors provide 3 different points of rotation on each leg. All the motors are wired into a central PCB, which coordinates the movement of the legs. Throughout this project I learned about soldering techniques, taking apart pre-made components, and the importance of clean wiring.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
