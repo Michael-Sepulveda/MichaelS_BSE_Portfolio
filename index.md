@@ -21,12 +21,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AGoMOEGSwcM?si=dOLVRxDzffaKcGPC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
+My final milestone added modifications to the freenove hexapod. I took a step back and customized the calibration app in order to control the robot, and have buttons for custom movements. I made the robot rock back and forth, bounce up and down, move it's body in a circle, and life it's legs in a wave like pattern. I also was able to connect a esp32 camera to the hexapod's control board, which gives me wireless connection to a camera from my phone. I printed out a holder for the camera, that would also fully secure the battery, but it was not printed at the time of recording the third milestone.
 
 
 # Second Milestone
@@ -35,23 +30,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oXx-ISeFiCc?si=HgS1ziBTH3oohgaX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
-
+My second milestone was the fully complete the hexapod. Since I was able to get motion and wireless connection in my first milestone, my next step was the get the hexapod working with the remote control. The controller was used a nrf24l01 module in order to communicate with the hexapod. I also got a simple battery casing 3d printed, just to keep the battery from possibly disconnecting during movement.
 # First Milestone
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2KsnWkth43s?si=X-QJwAFgri54d0XL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+My first milestone was getting the hexapod fully built. I followed the freenove instructions to get the hexapod connected to my computer through wifi, and used the built in calibration app in order to get the hexapod to wirelessly move. The battery casing had to be desoldered from the original board, as I needed to replace it with a separate, rechargeable battery.
 
 # Starter Project
 
