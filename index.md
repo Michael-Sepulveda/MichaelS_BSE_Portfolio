@@ -1,12 +1,6 @@
 # Mechanical Hexapod
 I built a mechanical hexapod, capable of movement through a remote control. 18 motors provide 3 different points of rotation on each leg. All the motors are wired into a central PCB, which coordinates the movement of the legs. Throughout this project I learned about soldering techniques, taking apart pre-made components, and the importance of clean wiring.
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Michael S | Nueva | Mechanical Engineering | Incoming Sophmore
@@ -21,7 +15,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AGoMOEGSwcM?si=dOLVRxDzffaKcGPC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-My final milestone added modifications to the freenove hexapod. I went back to the calibration app in order to add custom controls the robot, and have buttons for custom movements. In order to make these modifications, I had to code and test the movements in arduino ide first. I then translated the code into java, so that I could add it to the processing app, which creates the separate calibration app. Using the controlP5 library, I was able to add buttons and a custom tab for my code. The buttons call the commands that I made prior, and send those commands to the hexapod, which starts the movement that I coded. The buttons make the robot rock back and forth, bounce up and down, move it's body in a circle, and life it's legs in a wave like pattern. My final modification was connecting an esp32 camera to the hexapod's control board, which gives me wireless connection to a camera from my phone. The esp32 module plugs into the leftover pin slots on the board, which allows me to use the camera with the robot. The esp32 camera requires wifi, though, meaning I can't use the hexapod's wifi to control it. This means I needed 2 devices in order to have both movement and vision, hence the use of my phone. I printed out a simple holder for the camera, that would also fully secure the battery, but it was not printed at the time of recording the third milestone.
+My final milestone added modifications to the freenove hexapod. I went back to the calibration app in order to add custom controls the robot, and have buttons for custom movements. In order to make these modifications, I had to code and test the movements in arduino ide first. I then translated the code into java, so that I could add it to the processing app, which then creates the separate calibration app. Using the controlP5 library, I was able to add buttons and a custom tab for my code. The buttons call the commands that I made prior, and send those commands to the hexapod, which starts the movement that I coded. The buttons make the robot rock back and forth, bounce up and down, move it's body in a circle, and life it's legs in a wave like pattern. My final modification was connecting an esp32 camera to the hexapod's control board, which gives me wireless connection to a camera from my phone. The esp32 module plugs into the leftover pin slots on the board, which allows me to use the camera with the robot. The esp32 camera requires wifi, though, meaning I can't use the hexapod's wifi to control it. This means I needed 2 devices in order to have both movement and vision, hence the use of my phone. I printed out a simple holder for the camera, that would also fully secure the battery, but it was not printed at the time of recording the third milestone.
 
 
 # Second Milestone
