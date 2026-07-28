@@ -1,1 +1,1 @@
-This repository is a template for documenting BlueStamp Engineering projects. Users should replace this text with a description of what their project is and what their repository holds. 
+This repository is for Michael's Portfolio website. It includes all the parts used to document Michael's project at Bluestamp.
