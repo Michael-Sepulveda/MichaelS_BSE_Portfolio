@@ -38,8 +38,6 @@ My first milestone was getting the hexapod fully built. Using the online guides 
 My starter project was the RGB slider. It consisted of 3 sliders, an led, usb port, and central board. All the componenets were soldered onto the board, and worked immediatly after soldering. When trying to show the slider working on camera though, it didn't work at first. We thought that maybe the wires were off, so we tried the one I used. That didn't work, so I resoldered the componenets, just incase I hadn't put enough solder the first time. That didn't fix the issue, though, so I had to plug the device into my computer. Thankfully, this powered the RGB slider with no issues. I'm still not sure why only my computer powers the rgb slider, but I'm glad that this was a one time issue.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
-
 ![Headstone Image](Hexapod Pinout_schem.png)
 
 # Code
