@@ -62,7 +62,10 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Freenove Hexapod kit with remote | Stock Hexapod kit that is built off of | $Price | <a href="https://store.freenove.com/products/fnk0031?_pos=2&_sid=7d0b7bccf&_ss=r"> Link </a>|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Freenove Hexapod kit with remote | Stock Hexapod kit that is built off of | $126.99 | <a href="https://store.freenove.com/products/fnk0031?_pos=2&_sid=7d0b7bccf&_ss=r"> Link </a>|
+| ESP32 cam | Small camera that can wirelessly connect with your phone | $16.99 | <a href="https://www.amazon.com/Hosyond-ESP32-CAM-Bluetooth-Development-Compatible/dp/B09TB1GJ7P/ref=sr_1_1_sspa?crid=1PYWP76XEPUX1&dib=eyJ2IjoiMSJ9.LTQ8QA0yrlsQjvOEHKz0wYVcZ5xnBzG8J5dNZ0DD9vKq1cCzINpkS8IK2knuAhaAkXTJEC6CuOPqw4R1QAn2luihWUnIICA-bIO3Iw7MfKqCC8pPc6BqRKLmo_J7c_ZKxDKDZCA86pU8x788mZ7AXVHf7Osr_5yzdPCB4PIcf158O0hzXKHuRSMbnzXInDmAwAwpnnBLzRQXdY939j2M7ukqfmpk93_Bxv4JAAg9VXwNojZsd1QO5e2lB5rUCu7z1ASxnYAUpdVDKSLmoKhmAOXAqkV-FdDaTyKpWLuClOk.MyZEHK4I4-_fnt4eEQd_lkuSMOWcgSMUHEjRvKCXKaQ&dib_tag=se&keywords=esp%2B32%2Bcam&qid=1785256377&s=electronics&sprefix=esp32%2Bca%2Celectronics%2C168&sr=1-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
+| Jumper Wires | Connecting the ESP32 camera | $6.98 | <a href="https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.I3nSspk5onl8Jong0G-0EaUV8k3yvkfNxu9EofYJ660j1dYXWvGcCaWvoPmVbWbzzPiX0Bw5dl8Pr07K6QkBVPexY0UkSW47Q9SO-dMAQWC6JT9dpAdBsD8kVqvTtErn9OF2LiurxqcDtFwg-ay6NkZJM15E7_IyUAeFj7qvU6ivMWRnEa7Oywa5bZ8qSMR3FyAS9aprB5wY9XOAQxd5djTF0tjEsvM_i2-lskb2Elg.Xg2TyKcgDpGMPq1DHWtwH_LbrA0mJIhB56GoVMBputg&dib_tag=se&keywords=jumper%2Bwires&qid=1785256526&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"> Link </a> |
+| Tenergy 7.2v battery | Rechargeable battery  | $39.49 | <a href="https://power.tenergy.com/tenergy-nimh-7-2v-3800mah-battery-pack-w-tamiya-connector-for-rc-cars/?sku=11200&gad_source=1&gad_campaignid=17180860516&gbraid=0AAAAAD_fnYHNIx6mPo78v9NZtPMzOhEb3&gclid=CjwKCAjwpqHTBhAcEiwAj2Afunb-jK0Ndfn2y9CvKmIICochYAEYZYYaSSELZy5lhx8zllzCMItN4BoCr98QAvD_BwE"> Link </a> |
+| Jumper Wires | Connecting the Esp | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+
 
