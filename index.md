@@ -369,9 +369,8 @@ void setControlP5TabGlobal() {
 | Tenergy 7.2v battery connector | Connecting the battery to the hexapod | $2.49 | <a href="https://power.tenergy.com/standard-female-tamiya-connector-charger-side/?sku=80000-4&gad_source=1&gad_campaignid=17180860516&gbraid=0AAAAAD_fnYHNIx6mPo78v9NZtPMzOhEb3&gclid=CjwKCAjwpqHTBhAcEiwAj2AfugP0WQJD69mX2IXxH-gn-QoSnGoiYZ7LDq-sQmniZ23Bs8OhSqcT5BoCx8kQAvD_BwE"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+I had to do a lot of research during this project, since I was new to a lot of the parts I used. Below are some of the most important sources that I used during the creation of the hexapod. The ESP32 camera tutorial was super easy to follow, and simple to implement. The Freenove hexapod guide was critical to helping me troubleshoot issues when building the base robot. The controlp5 library allowed me to reference examples for buttons and tabs, letting me create my own buttons with ease.
 - [ESP32 Camera AP Mode](https://randomnerdtutorials.com/esp32-cam-access-point-ap-web-server/)
 - [Freenove Hexapod Kit Guide](https://sviatil0.github.io/Sviatoslav_BSE/](https://docs.freenove.com/projects/fnk0031/en/latest/))
 - [ControlP5 library examples](https://www.sojamo.de/libraries/controlP5/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
