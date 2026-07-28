@@ -43,7 +43,7 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
+```java
 // this is only the code that i added onto the premade processing code
 
 // orange colors
@@ -70,10 +70,294 @@ void setup() {
   ;
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void draw() {
+  background(princetonorange);
+  fill(darkerprincetonorange);
 
 }
+//custom moves
+public void rock(){
+  controlRobot.BootState();
+  for(int i = 0; i<5; i++){
+  controlRobot.TwistBody(0, 0, 0, 10, 45, 0);
+  controlRobot.TwistBody(0, 0, 0, 10, -45, 0);
+  controlRobot.TwistBody(0, 0, 0, 10, -45, 0);
+  controlRobot.TwistBody(0, 0, 0, 10, 45, 0);
+  }
+  controlRobot.ActiveMode();
+}
+
+public void LegWave(){
+  controlRobot.BootState();
+  for(int i = 0; i<6; i++){
+    controlRobot.MoveLeg(leg,0,0,10);
+    leg++;
+    delay(100);
+  }
+  for (int i=0; i<6; i++){  
+    controlRobot.MoveLeg(1,-50,0,0); //start of left side wave (looking at the usb side)
+    delay(100);
+    controlRobot.MoveLeg(2,-50,0,0);
+    delay(100);
+    controlRobot.MoveLeg(3,-50,0,0);
+    delay(100);
+    controlRobot.MoveLeg(1,50,0,0);
+    delay(100);
+    controlRobot.MoveLeg(2,50,0,0);
+    delay(100);
+    controlRobot.MoveLeg(3,50,0,0);
+    delay(100);
+    controlRobot.MoveLeg(6,-50,0,0); //start of right side wave (looking at the usb side)
+    delay(100);
+    controlRobot.MoveLeg(5,-50,0,0);
+    delay(100);
+    controlRobot.MoveLeg(4,-50,0,0);
+    delay(100);
+    controlRobot.MoveLeg(6,50,0,0);
+    delay(100);
+    controlRobot.MoveLeg(5,50,0,0);
+    delay(100);
+    controlRobot.MoveLeg(4,50,0,0);
+    delay(100);
+  }
+  controlRobot.ActiveMode();
+}
+  //move the hexapod body in a circle
+public void circle(){
+  controlRobot.BootState();
+  for(int i = 0; i<2; i++){
+  controlRobot.MoveBody(0, 40, 10);
+  controlRobot.MoveBody(-20, 34, 10);
+  controlRobot.MoveBody(-34, 20, 10); // Q3 of the circle 
+  controlRobot.MoveBody(-40,0, 10);
+  controlRobot.MoveBody(-34,-20, 10);
+  controlRobot.MoveBody(-20,-34, 10);// Q4 of the circle 
+  controlRobot.MoveBody(0,-40, 10); 
+  controlRobot.MoveBody(20,-34, 10);
+  controlRobot.MoveBody(34,-20, 10);// Q2 of the circle 
+  controlRobot.MoveBody(40,0, 10);
+  controlRobot.MoveBody(34,20, 10);
+  controlRobot.MoveBody(20,34, 10);// Q1 of the circle 
+  controlRobot.MoveBody(0,40, 10);
+  }
+  controlRobot.BootState();
+}
+
+public void bounce(){
+  controlRobot.BootState();
+  //bounce the hexapod
+  for(int i = 0; i < 3; i++){ 
+  controlRobot.MoveBody(0,0,150); 
+  controlRobot.MoveBody(0,0,0); 
+  }
+  controlRobot.BootState();
+  controlRobot.ActiveMode();
+}
+//end of custom moves
+
+// This chunk of code was modified to change the color of the website, but nothing was added
+void setControlP5Tab() {
+  setControlP5TabGlobal();
+  
+  cp5.getTab("default")
+    .setColorActive(activeorange)
+    .setColorBackground(neonorange)
+    .setColorForeground(Hoverorange)
+    .setId(2)
+    .setCaptionLabel("control")
+    .setHeight(tabHeight)
+    .setWidth(tabWidth)
+    .activateEvent(true)
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+  setControlP5TabControl();
+
+  cp5.addTab("twist body")
+    .setColorActive(activeorange)
+    .setColorBackground(neonorange)
+    .setColorForeground(Hoverorange)
+    .setId(3)
+    .setHeight(tabHeight)
+    .setWidth(tabWidth)
+    .activateEvent(true)
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+  setControlP5TabTwistBody();
+
+  cp5.addTab("calibration")
+    .setColorActive(activeorange)
+    .setColorBackground(neonorange)
+    .setColorForeground(Hoverorange)
+    .setId(4)
+    .setHeight(tabHeight)
+    .setWidth(tabWidth)
+    .activateEvent(true)
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+  setControlP5TabCalibration();
+
+  cp5.addTab("installation")
+    .setColorActive(activeorange)
+    .setColorBackground(neonorange)
+    .setColorForeground(Hoverorange)
+    .setId(5)
+    .setHeight(tabHeight)
+    .setWidth(tabWidth)
+    .activateEvent(true)
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+
+
+  cp5.addTab("Custom")
+    .setColorActive(activeorange)
+    .setColorBackground(neonorange)
+    .setColorForeground(Hoverorange)
+    .setId(6)
+    .setHeight(tabHeight)
+    .setWidth(tabWidth)
+    .activateEvent(true)
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+    
+}
+
+void setControlP5TabGlobal() { 
+  cp5.addRadioButton("radioButton1")
+    .setColorBackground(neonorange)
+    .setColorActive(activeorange)
+    .setColorForeground(Hoverorange)
+    .setId(101)
+    .setPosition(4, tabHeight + 11)
+    .setSize(20, 20)
+    .setItemsPerRow(2)
+    .setSpacingRow(4)
+    .setSpacingColumn(70)
+    .addItem("serial", 1)
+    .addItem("wi-fi", 2)
+    .activate(0)
+    .moveTo("global")
+    ;
+
+  cp5.addButton("connect")
+    .setColorBackground(neonorange)
+    .setColorActive(activeorange)
+    .setColorForeground(Hoverorange)
+    .setId(102)
+    .setPosition(4, tabHeight + 11 + 20 + 10)
+    .setSize(128, 48)
+    .moveTo("global")
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+// end of color changes
+// start of my custom buttons
+  cp5.addButton("Rock")
+    .setId(501)
+    .setPosition(4 + (buttonWidth + buttonSpacingX) * 0.0, 129 + (buttonHeight + buttonSpacingY) * 0)
+    .setSize(buttonWidth+50, buttonHeight)
+    .moveTo("Custom")
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+   cp5.addButton("Leg Wave")
+    .setId(502)
+    .setPosition(4 + (buttonWidth + buttonSpacingX) * 0.0, 129 + (buttonHeight + buttonSpacingY) * 1)
+    .setSize(buttonWidth+50, buttonHeight)
+    .moveTo("Custom")
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+   cp5.addButton("Circle")
+    .setId(503)
+    .setPosition(4 + (buttonWidth + buttonSpacingX) * 0.0, 129 + (buttonHeight + buttonSpacingY) * 2)
+    .setSize(buttonWidth+50, buttonHeight)
+    .moveTo("Custom")
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+   cp5.addButton("Bounce")
+    .setId(504)
+    .setPosition(4 + (buttonWidth + buttonSpacingX) * 0.0, 129 + (buttonHeight + buttonSpacingY) * 3)
+    .setSize(buttonWidth+50, buttonHeight)
+    .moveTo("Custom")
+    .getCaptionLabel().align(CENTER, CENTER)
+    ;
+// end of custom buttons
+ //Custom moves cases
+    case(501):
+    rock();
+    break;
+    
+    case(502):
+    LegWave();
+    break;
+    
+    case(503):
+    circle();
+    break;
+    
+    case(504):
+    bounce();
+    break;
+    
+    case(505):
+    int Switch = (int)cp5.getController("On/Off").getValue();
+    if(Switch==1)
+    controlRobot.ActiveMode();
+    if(Switch==0)
+    controlRobot.BootState();
+    break;
+  //wasd controls for the custom tab
+  cp5.mapKeyFor(new ControlKey() {
+    public void keyEvent() {
+      if (cp5.getTab("Custom").isActive()) {
+        setEvent(201);
+      }
+    }
+  }
+  , 'w');
+  
+  cp5.mapKeyFor(new ControlKey() {
+    public void keyEvent() {
+      if (cp5.getTab("Custom").isActive()) {
+        setEvent(202);
+      }
+    }
+  }
+  , 's');
+  
+  cp5.mapKeyFor(new ControlKey() {
+    public void keyEvent() {
+      if (cp5.getTab("Custom").isActive()) {
+        setEvent(203);
+      }
+    }
+  }
+  , 'a');
+  
+  cp5.mapKeyFor(new ControlKey() {
+    public void keyEvent() {
+      if (cp5.getTab("Custom").isActive()) {
+        setEvent(204);
+      }
+    }
+  }
+  , 'd');
+
+ cp5.mapKeyFor(new ControlKey() {
+    public void keyEvent() {
+      if (cp5.getTab("Custom").isActive()) {
+        setEvent(205);
+      }
+    }
+  }
+  , 'q');
+  
+  cp5.mapKeyFor(new ControlKey() {
+    public void keyEvent() {
+      if (cp5.getTab("Custom").isActive()) {
+        setEvent(206);
+      }
+    }
+  }
+  , 'e');
+   //keys for the custom moves
 ```
 
 # Bill of Materials
