@@ -279,31 +279,7 @@ void setControlP5TabGlobal() {
     .getCaptionLabel().align(CENTER, CENTER)
     ;
 // end of custom buttons
- //Custom moves cases
-    case(501):
-    rock();
-    break;
-    
-    case(502):
-    LegWave();
-    break;
-    
-    case(503):
-    circle();
-    break;
-    
-    case(504):
-    bounce();
-    break;
-    
-    case(505):
-    int Switch = (int)cp5.getController("On/Off").getValue();
-    if(Switch==1)
-    controlRobot.ActiveMode();
-    if(Switch==0)
-    controlRobot.BootState();
-    break;
-  //wasd controls for the custom tab
+//wasd controls for the custom tab
   cp5.mapKeyFor(new ControlKey() {
     public void keyEvent() {
       if (cp5.getTab("Custom").isActive()) {
@@ -358,6 +334,30 @@ void setControlP5TabGlobal() {
   }
   , 'e');
    //keys for the custom moves
+//Custom moves cases
+    case(501):
+    rock();
+    break;
+    
+    case(502):
+    LegWave();
+    break;
+    
+    case(503):
+    circle();
+    break;
+    
+    case(504):
+    bounce();
+    break;
+    
+    case(505):
+    int Switch = (int)cp5.getController("On/Off").getValue();
+    if(Switch==1)
+    controlRobot.ActiveMode();
+    if(Switch==0)
+    controlRobot.BootState();
+    break;
 ```
 
 # Bill of Materials
