@@ -371,7 +371,7 @@ void setControlP5TabGlobal() {
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [ESP32 Camera AP Mode](https://randomnerdtutorials.com/esp32-cam-access-point-ap-web-server/)
-- [Freenove Hexapod Kit Guide]([https://sviatil0.github.io/Sviatoslav_BSE/](https://docs.freenove.com/projects/fnk0031/en/latest/))
+- [Freenove Hexapod Kit Guide](https://sviatil0.github.io/Sviatoslav_BSE/](https://docs.freenove.com/projects/fnk0031/en/latest/))
 - [ControlP5 library examples](https://www.sojamo.de/libraries/controlP5/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
