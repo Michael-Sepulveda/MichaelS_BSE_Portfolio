@@ -7,7 +7,7 @@ I built a mechanical hexapod, capable of movement through a remote control. 18 m
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+![Headstone Image](IMG_1193.jpeg)
   
 # Final Milestone
 
