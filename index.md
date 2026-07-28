@@ -368,7 +368,7 @@ void setControlP5TabGlobal() {
 | Tenergy 7.2v battery | Rechargeable battery  | $39.49 | <a href="https://power.tenergy.com/tenergy-nimh-7-2v-3800mah-battery-pack-w-tamiya-connector-for-rc-cars/?sku=11200&gad_source=1&gad_campaignid=17180860516&gbraid=0AAAAAD_fnYHNIx6mPo78v9NZtPMzOhEb3&gclid=CjwKCAjwpqHTBhAcEiwAj2Afunb-jK0Ndfn2y9CvKmIICochYAEYZYYaSSELZy5lhx8zllzCMItN4BoCr98QAvD_BwE"> Link </a> |
 | Tenergy 7.2v battery connector | Connecting the battery to the hexapod | $2.49 | <a href="https://power.tenergy.com/standard-female-tamiya-connector-charger-side/?sku=80000-4&gad_source=1&gad_campaignid=17180860516&gbraid=0AAAAAD_fnYHNIx6mPo78v9NZtPMzOhEb3&gclid=CjwKCAjwpqHTBhAcEiwAj2AfugP0WQJD69mX2IXxH-gn-QoSnGoiYZ7LDq-sQmniZ23Bs8OhSqcT5BoCx8kQAvD_BwE"> Link </a> |
 
-# Other Resources/Examples
+# Resources I used
 I had to do a lot of research during this project, since I was new to a lot of the parts I used. Below are some of the most important sources that I used during the creation of the hexapod. The ESP32 camera tutorial was super easy to follow, and simple to implement. The Freenove hexapod guide was critical to helping me troubleshoot issues when building the base robot. The controlp5 library allowed me to reference examples for buttons and tabs, letting me create my own buttons with ease.
 - [ESP32 Camera AP Mode](https://randomnerdtutorials.com/esp32-cam-access-point-ap-web-server/)
 - [Freenove Hexapod Kit Guide](https://sviatil0.github.io/Sviatoslav_BSE/](https://docs.freenove.com/projects/fnk0031/en/latest/))
