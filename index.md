@@ -44,10 +44,30 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
+// this is only the code that i added onto the premade processing code
+
+// orange colors
+int princetonorange = color(231, 117, 0);
+int darkerprincetonorange = color(225, 110, 10);
+int neonorange = color(255, 128, 0);
+int Hoverorange = color (275, 148, 20);
+int activeorange = color (235,88,10);
+// variable for the leg number
+int leg = 1;
+//variable for toggle switch
+int Switch;
+
 void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+  //custom on/off switch
+  cp5.addSlider("On/Off")
+  .setRange(0,1)
+  .setSize(50,100)
+  .setPosition(15,450)
+  .setNumberOfTickMarks(2)  
+  .setSliderMode(Slider.FLEXIBLE)  
+  .moveTo("Custom")
+  .setId(505)
+  ;
 }
 
 void loop() {
