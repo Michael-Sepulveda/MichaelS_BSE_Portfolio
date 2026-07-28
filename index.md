@@ -368,4 +368,10 @@ void setControlP5TabGlobal() {
 | Tenergy 7.2v battery | Rechargeable battery  | $39.49 | <a href="https://power.tenergy.com/tenergy-nimh-7-2v-3800mah-battery-pack-w-tamiya-connector-for-rc-cars/?sku=11200&gad_source=1&gad_campaignid=17180860516&gbraid=0AAAAAD_fnYHNIx6mPo78v9NZtPMzOhEb3&gclid=CjwKCAjwpqHTBhAcEiwAj2Afunb-jK0Ndfn2y9CvKmIICochYAEYZYYaSSELZy5lhx8zllzCMItN4BoCr98QAvD_BwE"> Link </a> |
 | Tenergy 7.2v battery connector | Connecting the battery to the hexapod | $2.49 | <a href="https://power.tenergy.com/standard-female-tamiya-connector-charger-side/?sku=80000-4&gad_source=1&gad_campaignid=17180860516&gbraid=0AAAAAD_fnYHNIx6mPo78v9NZtPMzOhEb3&gclid=CjwKCAjwpqHTBhAcEiwAj2AfugP0WQJD69mX2IXxH-gn-QoSnGoiYZ7LDq-sQmniZ23Bs8OhSqcT5BoCx8kQAvD_BwE"> Link </a> |
 
+# Other Resources/Examples
+One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
+- [ESP32 Camera AP Mode](https://randomnerdtutorials.com/esp32-cam-access-point-ap-web-server/)
+- [Freenove Hexapod Kit Guide]([https://sviatil0.github.io/Sviatoslav_BSE/](https://docs.freenove.com/projects/fnk0031/en/latest/))
+- [ControlP5 library examples](https://www.sojamo.de/libraries/controlP5/)
 
+To watch the BSE tutorial on how to create a portfolio, click here.
